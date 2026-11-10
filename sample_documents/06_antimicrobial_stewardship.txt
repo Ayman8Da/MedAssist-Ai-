@@ -1,0 +1,78 @@
+SYNTHETIC SAMPLE DOCUMENT - NOT A REAL CLINICAL GUIDELINE
+Written for software testing of MedAssist AI. Not for prescribing.
+
+TITLE: Antimicrobial Stewardship Principles for Respiratory Infections
+SOURCE LABEL: MedAssist Synthetic Library
+VERSION: 1.0
+PUBLICATION DATE: 2026-03-08
+CATEGORY: infectious_diseases
+
+1. CORE PRINCIPLE
+
+Antibiotics treat bacterial infection. Most acute cough and upper respiratory
+illnesses in previously healthy adults are viral and do not benefit from
+antibiotics. Prescribing antibiotics for viral illness exposes the patient to
+adverse effects and contributes to resistance without clinical benefit.
+
+2. WHEN ANTIBIOTICS ARE MORE LIKELY TO BE APPROPRIATE
+
+- Clinical features suggesting bacterial pneumonia, supported by imaging where
+  available.
+- Sepsis or haemodynamic instability.
+- Exacerbation of COPD with increased sputum purulence and breathlessness.
+- Confirmed streptococcal pharyngitis.
+- Immunosuppression with a compatible clinical picture.
+
+The decision should be based on the whole clinical picture, not on sputum
+colour alone. Sputum colour is a poor discriminator between viral and bacterial
+infection.
+
+3. INFORMATION REQUIRED BEFORE PRESCRIBING
+
+- Objective vital signs and oxygen saturation.
+- Comorbidities, especially chronic lung disease and immunosuppression.
+- Recent antibiotic exposure within the last three months.
+- Known colonisation with resistant organisms.
+- Allergy history, including the nature of the previous reaction.
+- Renal and hepatic function, which affect drug selection and dose.
+- Local resistance patterns and current stewardship guidance.
+- Whether the patient can be reassessed within 48 hours.
+
+4. DE-ESCALATION AND REVIEW
+
+- Review intravenous therapy at 48 to 72 hours and switch to oral treatment
+  when the patient is stable and absorbing enteral medication.
+- Stop antibiotics when bacterial infection is excluded.
+- Narrow the spectrum when culture results permit.
+- Document the indication, the intended duration, and the review date.
+
+5. COMMON STEWARDSHIP PITFALLS
+
+- Continuing antibiotics because the patient "looks unwell" without a defined
+  indication.
+- Treating colonisation rather than infection.
+- Using broad-spectrum agents when narrow-spectrum agents are adequate.
+- Failing to review therapy after negative cultures.
+- Omitting a stop date.
+
+6. SAFETY CONSIDERATIONS
+
+Antibiotic allergy labels are often inaccurate. A documented allergy should be
+characterised by the type and timing of the reaction, because incorrect labels
+drive use of broader-spectrum agents. However, a history of anaphylaxis or
+severe cutaneous adverse reaction requires genuine avoidance and specialist
+input.
+
+7. MISSING INFORMATION IN SHORT VIGNETTES
+
+- Culture and sensitivity results.
+- Prior microbiology from the same patient.
+- Exact antibiotic doses already given.
+- Whether the patient is improving or deteriorating.
+- Local formulary and resistance data.
+
+8. LIMITATION
+
+This document describes general stewardship principles for software testing.
+It does not provide dosing, does not replace local policy, and must not be used
+to make prescribing decisions for a real patient.

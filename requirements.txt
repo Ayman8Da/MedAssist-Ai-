@@ -1,0 +1,28 @@
+# MedAssist AI - runtime dependencies (Phase 2)
+fastapi>=0.115,<1.0
+uvicorn[standard]>=0.30,<1.0
+pydantic>=2.7,<3.0
+pydantic-settings>=2.2,<3.0
+python-multipart>=0.0.9
+SQLAlchemy[asyncio]>=2.0,<3.0
+aiosqlite>=0.20
+httpx>=0.27,<1.0
+pypdf>=4.0,<7.0
+qdrant-client>=1.12,<2.0
+numpy>=1.26
+python-dotenv>=1.0
+
+# Phase 2 - hybrid retrieval (BM25 + RRF + local ONNX reranker)
+rank-bm25>=0.2.2,<0.3
+# fastembed provides the ONNX BGE reranker and its Snowball stemmer dependency.
+# onnxruntime is installed explicitly so the CPU wheel is pinned and upgrades of
+# fastembed cannot pull a CUDA/Torch stack on CPU-only machines.
+fastembed>=0.9,<1.0
+onnxruntime>=1.20,<2.0; python_version < "3.14"
+onnxruntime>=1.31,<2.0; python_version >= "3.14"
+
+# Phase 3 - agentic orchestration
+langgraph>=1.2,<2.0
+# On Python 3.14 use the default SQLite URL locally, or install asyncpg manually
+# once a compatible wheel is available.
+asyncpg>=0.30; python_version < "3.14"

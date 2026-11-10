@@ -1,0 +1,80 @@
+SYNTHETIC SAMPLE DOCUMENT - NOT A REAL CLINICAL GUIDELINE
+Written for software testing of MedAssist AI. This is a deliberately simplified
+fictitious guideline used to test version comparison and apparent conflict.
+It must never be used for patient care.
+
+TITLE: Blood Pressure Management in Adults with Type 2 Diabetes (Fictitious Guideline, 2024 Edition)
+SOURCE LABEL: MedAssist Synthetic Library
+VERSION: 2024.2
+PUBLICATION DATE: 2024-09-15
+CATEGORY: cardiology
+
+1. SCOPE
+
+This fictitious guideline replaces the 2019 edition and covers adults aged 18
+years and older with type 2 diabetes and hypertension, including adults above
+75 years, adults with frailty, and adults with chronic kidney disease.
+
+2. RECOMMENDED TARGET
+
+Treatment should be individualised rather than applied uniformly.
+
+- Adults aged 18 to 64 years without frailty: target clinic systolic blood
+  pressure below 130 mmHg, if tolerated.
+- Adults aged 65 to 79 years: target systolic blood pressure 130 to 139 mmHg,
+  accepting that lower values may be appropriate in selected patients.
+- Adults aged 80 years and older, or with frailty or orthostatic hypotension:
+  target systolic blood pressure 130 to 149 mmHg, prioritising avoidance of
+  hypotension, falls, and acute kidney injury.
+
+The 2024 edition explicitly withdraws the single universal target of below
+130/80 mmHg used in the 2019 edition.
+
+3. FIRST-LINE THERAPY
+
+For most adults, any of an ACE inhibitor, an angiotensin receptor blocker, a
+thiazide-like diuretic, or a dihydropyridine calcium channel blocker may be
+used as initial therapy. Choice should reflect comorbidity, cost, adherence,
+and patient preference. An ACE inhibitor or ARB remains preferred when albuminuria
+is present.
+
+Combination therapy with two agents from different classes is recommended when
+blood pressure is more than 20/10 mmHg above target at presentation.
+
+4. MONITORING AND DE-ESCALATION
+
+- Check renal function and potassium within one to two weeks of starting or
+  increasing an ACE inhibitor, ARB, or diuretic.
+- Assess orthostatic blood pressure in adults aged 65 and older.
+- Review the need for continued treatment after any fall, syncope, or episode
+  of acute kidney injury.
+- Deprescribing should be considered when the burden of treatment exceeds the
+  expected benefit.
+
+5. EVIDENCE BASE AS STATED IN THIS FICTITIOUS DOCUMENT
+
+The 2024 edition claims to incorporate newer trials that enrolled older adults
+and adults with frailty, and argues that intensive lowering produced smaller
+absolute benefit and more adverse events in these groups. This claim is part of
+the fictional document and is not a verified statement about real trials.
+
+6. COMPARISON WITH THE 2019 EDITION
+
+- Target population expanded to include adults above 75 years, frailty, and
+  chronic kidney disease.
+- Blood pressure target changed from a single universal threshold to an
+  age-stratified and frailty-sensitive range.
+- First-line therapy changed from ACE inhibitor or ARB for everyone to a choice
+  among four classes, with ACE inhibitor or ARB preferred when albuminuria is
+  present.
+- Added explicit de-escalation and orthostatic hypotension guidance.
+
+7. INTERPRETATION NOTE
+
+The two editions differ in the recommended target and in the recommended
+first-line agent. Whether this constitutes a genuine contradiction or a
+legitimate update depends on the evidence each edition considered and on the
+population each addresses. A reader should check publication dates, target
+populations, and the underlying evidence before concluding that the documents
+conflict. Where a newer edition explicitly supersedes an older one, the newer
+edition should generally be preferred, while noting the older evidence base.

@@ -1,0 +1,22 @@
+[project]
+name = "medassist-ai"
+version = "0.1.0"
+description = "MedAssist AI - Agentic RAG medical knowledge and clinical decision support (Phase 2: hybrid retrieval + reranking)"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+addopts = "-q"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+# FastAPI uses function calls (Depends/File/Form) in argument defaults by design.
+ignore = ["B008", "E501"]

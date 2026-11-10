@@ -1,0 +1,58 @@
+SYNTHETIC SAMPLE DOCUMENT - NOT A REAL CLINICAL GUIDELINE
+Written for software testing of MedAssist AI. This is a deliberately simplified
+and partly outdated fictitious guideline used to test conflict detection.
+It must never be used for patient care.
+
+TITLE: Blood Pressure Targets in Adults with Type 2 Diabetes (Fictitious Guideline, 2019 Edition)
+SOURCE LABEL: MedAssist Synthetic Library
+VERSION: 2019.1
+PUBLICATION DATE: 2019-06-30
+CATEGORY: cardiology
+
+1. SCOPE
+
+This fictitious guideline addresses blood pressure targets and first-line
+therapy for adults aged 18 to 75 years with type 2 diabetes and hypertension.
+
+2. RECOMMENDED TARGET
+
+For all adults with type 2 diabetes and hypertension, the recommended treatment
+target is a clinic systolic blood pressure below 130 mmHg and a diastolic blood
+pressure below 80 mmHg. The same target applies irrespective of age within the
+18 to 75 year range covered here.
+
+3. FIRST-LINE THERAPY
+
+An ACE inhibitor or an angiotensin receptor blocker is recommended as
+first-line therapy for all patients in scope, based on a presumed renal and
+cardiovascular advantage. Calcium channel blockers are described as a second
+line option when ACE inhibitors or ARBs are not tolerated.
+
+4. MONITORING
+
+Home blood pressure monitoring is encouraged. Renal function and potassium
+should be checked within two weeks of starting or increasing an ACE inhibitor
+or ARB, and then annually.
+
+5. EVIDENCE BASE AS STATED IN THIS FICTITIOUS DOCUMENT
+
+The 2019 edition states that the evidence base consisted mainly of trials
+enrolling middle-aged adults with relatively uncomplicated hypertension.
+Older adults above 75 years, adults with frailty, and adults with advanced
+chronic kidney disease were underrepresented. The document explicitly notes
+this limitation and recommends extrapolation with caution.
+
+6. TARGET POPULATION AND LIMITATIONS
+
+- Adults aged 18 to 75 years.
+- Type 2 diabetes with confirmed hypertension.
+- Excludes pregnancy, advanced chronic kidney disease with eGFR below 30, and
+  adults living in residential care.
+- Single blood pressure target for the whole population.
+- No specific recommendation for frailty or orthostatic hypotension.
+
+7. KNOWN GAPS
+
+The document does not address deprescribing in frail older adults, does not
+discuss the risk of falls, and does not stratify by baseline cardiovascular
+risk. It also assumes reliable clinic blood pressure measurement.

@@ -1,0 +1,98 @@
+SYNTHETIC SAMPLE DOCUMENT - NOT A REAL CLINICAL GUIDELINE
+Written for software testing of MedAssist AI. Not for patient care.
+
+TITLE: Triage of Fever, Cough, and Shortness of Breath in Adults
+SOURCE LABEL: MedAssist Synthetic Library
+VERSION: 1.0
+PUBLICATION DATE: 2026-01-28
+CATEGORY: emergency_medicine
+
+1. PURPOSE
+
+This document describes the clinical information a professional should collect
+when an adult presents with fever, cough, and shortness of breath, and the
+warning signs that require escalation. It is a triage aid, not a diagnostic
+algorithm.
+
+2. IMMEDIATE PHYSIOLOGICAL MEASUREMENTS
+
+The following must be obtained before any diagnostic reasoning is attempted:
+- Temperature, measured, not estimated.
+- Heart rate and rhythm.
+- Respiratory rate, counted over a full minute.
+- Blood pressure, with manual confirmation if abnormal.
+- Oxygen saturation on room air.
+- Peak expiratory flow if the patient can perform it safely.
+- Level of consciousness using a validated scale.
+
+A respiratory rate above 24 breaths per minute, oxygen saturation below 92
+percent, systolic blood pressure below 90 mmHg, or new confusion are escalation
+triggers.
+
+3. CLINICAL INFORMATION REQUIRED FOR ASSESSMENT
+
+- Symptom onset and tempo: sudden versus progressive.
+- Sputum production, colour, and volume.
+- Haemoptysis.
+- Pleuritic chest pain.
+- Ability to lie flat, and orthopnoea.
+- Recent travel, sick contacts, and occupational exposure.
+- Immunisation status.
+- Comorbidities: asthma, COPD, heart failure, diabetes, chronic kidney disease,
+  immunosuppression.
+- Smoking history and occupational exposures.
+- Pregnancy status where applicable.
+- Current medications, particularly anticoagulants and immunosuppressants.
+
+4. DIFFERENTIAL CONSIDERATIONS TO KEEP OPEN
+
+Pneumonia, viral respiratory infection including influenza and SARS-CoV-2,
+acute bronchitis, asthma exacerbation, COPD exacerbation, pulmonary embolism,
+acute heart failure, and sepsis from a non-respiratory source. A single
+narrative rarely distinguishes these reliably. Clinicians should avoid early
+closure on one diagnosis.
+
+5. WARNING SIGNS
+
+Respiratory:
+- Increasing work of breathing, accessory muscle use, tripod positioning.
+- Inability to complete a sentence.
+- Silent chest on auscultation.
+- Cyanosis.
+
+Circulatory:
+- Hypotension or a rising tachycardia.
+- Capillary refill longer than three seconds.
+- Cool peripheries with mottling.
+
+Neurological:
+- New confusion, agitation, or drowsiness.
+
+Other:
+- Oliguria.
+- Lactate above 2 mmol/L where measured.
+- Rapid deterioration over hours.
+
+6. GUIDELINES TO CONSULT
+
+Clinicians should consult their local respiratory infection pathway, local
+antimicrobial stewardship guidance, and sepsis screening policy. National
+sources commonly referenced include WHO respiratory infection guidance, CDC
+seasonal influenza and COVID-19 pages, and NICE guidance on pneumonia and
+sepsis. Local resistance patterns often determine empirical antibiotic choice
+and should take precedence over generic recommendations.
+
+7. MISSING INFORMATION IN TYPICAL SHORT VIGNETTES
+
+- Objective vital signs.
+- Duration and trajectory of symptoms.
+- Comorbidities and immune status.
+- Whether the patient has been treated already.
+- Whether the patient can be safely observed at home.
+- Baseline functional and cognitive status.
+
+8. SAFETY NOTE
+
+Shortness of breath with fever can represent a time-critical emergency. A
+decision-support tool must not delay physical assessment or escalation. When
+in doubt, escalate.

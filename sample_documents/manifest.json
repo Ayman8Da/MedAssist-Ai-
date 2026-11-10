@@ -1,0 +1,63 @@
+{
+  "description": "Synthetic medical documents for testing MedAssist AI. These are NOT authoritative guidelines and must never be used for patient care.",
+  "synthetic": true,
+  "documents": [
+    {
+      "file": "01_diabetes_respiratory_infection.txt",
+      "title": "Diabetes and Suspected Respiratory Infection in Adults",
+      "source": "MedAssist Synthetic Library",
+      "publication_date": "2026-01-12",
+      "version": "1.0",
+      "category": "endocrinology"
+    },
+    {
+      "file": "02_metformin_renal_function.txt",
+      "title": "Metformin in Patients with Impaired Renal Function",
+      "source": "MedAssist Synthetic Library",
+      "publication_date": "2026-02-03",
+      "version": "1.0",
+      "category": "pharmacology"
+    },
+    {
+      "file": "03_fever_cough_dyspnea_triage.txt",
+      "title": "Triage of Fever, Cough, and Shortness of Breath in Adults",
+      "source": "MedAssist Synthetic Library",
+      "publication_date": "2026-01-28",
+      "version": "1.0",
+      "category": "emergency_medicine"
+    },
+    {
+      "file": "04_hypertension_diabetes_guideline_2019.txt",
+      "title": "Blood Pressure Targets in Adults with Type 2 Diabetes (Fictitious Guideline, 2019 Edition)",
+      "source": "MedAssist Synthetic Library",
+      "publication_date": "2019-06-30",
+      "version": "2019.1",
+      "category": "cardiology",
+      "document_key": "htn-t2dm-guideline"
+    },
+    {
+      "file": "05_hypertension_diabetes_guideline_2024.txt",
+      "title": "Blood Pressure Management in Adults with Type 2 Diabetes (Fictitious Guideline, 2024 Edition)",
+      "source": "MedAssist Synthetic Library",
+      "publication_date": "2024-09-15",
+      "version": "2024.2",
+      "category": "cardiology",
+      "document_key": "htn-t2dm-guideline"
+    },
+    {
+      "file": "06_antimicrobial_stewardship.txt",
+      "title": "Antimicrobial Stewardship Principles for Respiratory Infections",
+      "source": "MedAssist Synthetic Library",
+      "publication_date": "2026-03-08",
+      "version": "1.0",
+      "category": "infectious_diseases"
+    }
+  ],
+  "benchmark_questions": [
+    "Explain how diabetes can influence the clinical assessment of an adult with a suspected respiratory infection. Identify relevant risk factors and missing information.",
+    "What are the contraindications, warnings, and important precautions associated with metformin in patients with impaired renal function?",
+    "A patient presents with fever, cough, and shortness of breath. Identify the clinical information required for assessment, relevant warning signs, and guidelines to consult.",
+    "Two medical documents provide different recommendations for managing the same clinical condition. Compare publication dates, target populations, recommendations, and evidence limitations. Determine whether the differences represent a genuine contradiction.",
+    "Review a hypothetical adult patient with diabetes, respiratory symptoms, and incomplete clinical information. Identify relevant guidelines, missing information, potential risks, and additional assessments a qualified professional should consider."
+  ]
+}

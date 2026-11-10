@@ -1,0 +1,92 @@
+SYNTHETIC SAMPLE DOCUMENT - NOT A REAL CLINICAL GUIDELINE
+This document was written for software testing of MedAssist AI. It is not
+published by WHO, CDC, NICE, or any other authority and must never be used for
+patient care. Clinical statements are simplified teaching-level content.
+
+TITLE: Diabetes and Suspected Respiratory Infection in Adults
+SOURCE LABEL: MedAssist Synthetic Library
+VERSION: 1.0
+PUBLICATION DATE: 2026-01-12
+CATEGORY: endocrinology
+
+1. WHY DIABETES CHANGES THE ASSESSMENT
+
+Adults with diabetes mellitus have a higher risk of severe respiratory
+infection and of complicated hospital course. Several mechanisms are
+plausible. Hyperglycaemia can impair neutrophil function and opsonisation.
+Diabetes is frequently accompanied by cardiovascular disease, chronic kidney
+disease, and obesity, all of which reduce physiological reserve.
+
+The practical consequence is that the same respiratory infection can present
+later and deteriorate faster in a patient with diabetes. Tachycardia may be
+masked by autonomic neuropathy. Fever may be blunted in older adults. Oxygen
+saturation may look acceptable while the patient is already tachypnoeic.
+
+2. CLINICAL INFORMATION REQUIRED
+
+A structured assessment should record:
+- Vital signs: temperature, heart rate, respiratory rate, blood pressure,
+  oxygen saturation on room air, and level of consciousness.
+- Glucose status: current capillary glucose, recent trend, HbA1c if available,
+  and whether the patient is on insulin.
+- Renal function: most recent eGFR and creatinine, plus the trend over months.
+- Hydration status: fluid intake, urine output, mucosal membranes, orthostatic
+  symptoms if safely assessable.
+- Respiratory examination: work of breathing, auscultation, ability to speak
+  in full sentences.
+- Comorbidity: heart failure, chronic kidney disease, prior myocardial
+  infarction, immunosuppression, malignancy.
+- Medication history: metformin, SGLT2 inhibitors, corticosteroids, diuretics,
+  and any recent antibiotic courses.
+- Vaccination status for influenza, pneumococcal disease, and SARS-CoV-2.
+- Symptom timeline: onset, duration, progression, and sick contacts.
+
+3. RISK FACTORS FOR SEVERE DISEASE
+
+- Age above 65 years.
+- Poorly controlled hyperglycaemia at presentation.
+- Chronic kidney disease stage 3b or worse.
+- Known ischaemic heart disease or heart failure.
+- Immunosuppressive therapy or active malignancy.
+- Residence in a care facility.
+- Prior intensive care admission for respiratory illness.
+
+4. RED FLAGS REQUIRING URGENT IN-PERSON ASSESSMENT
+
+- Oxygen saturation below 92 percent on room air at sea level, or a fall of
+  three or more percentage points from the patient's baseline.
+- Respiratory rate above 24 breaths per minute.
+- Systolic blood pressure below 90 mmHg.
+- New confusion or reduced level of consciousness.
+- Capillary glucose above 250 mg/dL with symptoms of dehydration or
+  ketosis, or any glucose below 70 mg/dL.
+- Inability to maintain oral intake.
+- Rapidly progressive dyspnoea or cyanosis.
+
+The presence of any red flag means the patient should not be managed through
+an asynchronous chat interface. Immediate in-person clinical assessment is
+required.
+
+5. METABOLIC INTERACTIONS TO ANTICIPATE
+
+Acute infection commonly worsens glycaemic control. Clinicians frequently need
+to review insulin doses and to consider withholding metformin and SGLT2
+inhibitors during acute illness, dehydration, or hypoxia, in line with local
+protocols. SGLT2 inhibitors carry a risk of euglycaemic ketoacidosis during
+acute illness, which is easy to miss when glucose is only mildly elevated.
+
+6. INFORMATION THAT IS OFTEN MISSING
+
+- Exact symptom duration and trajectory.
+- Whether the patient has measured temperature at home.
+- Recent antibiotic use, which changes the expected microbiology.
+- Baseline oxygen saturation and baseline functional status.
+- Pregnancy status where relevant.
+- Whether the patient lives alone and can be reassessed.
+
+7. UNCERTAINTY NOTE
+
+A decision-support system cannot exclude pneumonia, sepsis, or cardiac
+decompensation from text alone. Imaging, laboratory tests, and a physical
+examination are required. Recommendations here are general principles and must
+be adapted by a qualified clinician to the individual patient.

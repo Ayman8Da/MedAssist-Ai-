@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  --color-navy-950: #0b1f3a;
+  --color-navy-900: #0f2a4d;
+  --color-navy-800: #153563;
+  --color-navy-700: #1b417a;
+  --color-navy-600: #215093;
+  --color-navy-500: #2b62b0;
+  --color-medical-600: #1f6feb;
+  --color-medical-500: #2f81f7;
+  --color-medical-400: #58a6ff;
+  --color-teal-500: #14b8a6;
+  --color-teal-400: #2dd4bf;
+  --color-surface: #f7f9fc;
+  --color-surface-muted: #eef2f7;
+  --color-border: #dde3ec;
+  --color-text: #0f172a;
+  --color-text-muted: #5b6472;
+  --font-sans: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --radius-card: 16px;
+  --radius-control: 10px;
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.04), 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+:root {
+  --background: #f7f9fc;
+  --foreground: #0f172a;
+}
+
+.dark {
+  --background: #0b1220;
+  --foreground: #e6edf7;
+  --color-surface: #0f172a;
+  --color-surface-muted: #162033;
+  --color-border: #23304a;
+  --color-text: #e6edf7;
+  --color-text-muted: #9aa6bc;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,102 @@
+# ---------------------------------------------------------------------------
+# MedAssist AI - local stack
+#
+# Ollama runs on the HOST (it needs access to your local models and GPU/CPU).
+# Start it before the stack and pull the models once:
+#     ollama pull bge-m3
+#     ollama pull phi3:latest
+#
+# Then:  docker compose up --build
+# API docs:  http://localhost:8000/docs
+# ---------------------------------------------------------------------------
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      APP_ENV: development
+      LOG_LEVEL: INFO
+      DATA_DIR: /app/data
+      DATABASE_URL: postgresql+asyncpg://medassist:medassist@postgres:5432/medassist
+      QDRANT_URL: http://qdrant:6333
+      QDRANT_COLLECTION: medassist_chunks
+      EMBEDDING_PROVIDER: ollama
+      EMBEDDING_MODEL: bge-m3
+      EMBEDDING_DIM: "1024"
+      OLLAMA_BASE_URL: http://host.docker.internal:11434
+      LLM_PROVIDER: ollama
+      LLM_MODEL: phi3:latest
+      # CPU-sized generation profile. phi3 has a ~4k token window, so a large
+      # context would both overflow the window and blow the timeout on CPU.
+      LLM_MAX_TOKENS: "600"
+      LLM_TIMEOUT_SECONDS: "600"
+      TOP_K: "4"
+      MAX_CONTEXT_CHARS: "6000"
+      # Phase 2 hybrid retrieval. The reranker model (~0.57 GB) is downloaded on
+      # the first hybrid query into the persistent /app/data volume.
+      BM25_ENABLED: "true"
+      BM25_K1: "1.5"
+      BM25_B: "0.75"
+      BM25_STEMMING: "true"
+      RRF_K: "60"
+      DENSE_CANDIDATE_K: "30"
+      KEYWORD_CANDIDATE_K: "30"
+      RERANK_CANDIDATES: "20"
+      LATEST_VERSIONS_ONLY: "false"
+      RERANKER_PROVIDER: local
+      RERANKER_MODEL: BAAI/bge-reranker-v2-m3-int8
+      RERANKER_MAX_LENGTH: "512"
+      RERANKER_BATCH_SIZE: "8"
+      RERANKER_TIMEOUT_SECONDS: "120"
+      RERANKER_CACHE_DIR: /app/data/fastembed
+    volumes:
+      - api_data:/app/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+      qdrant:
+        condition: service_healthy
+    extra_hosts:
+      # Lets the container reach Ollama on the host on Linux as well as Docker Desktop.
+      - "host.docker.internal:host-gateway"
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: medassist
+      POSTGRES_PASSWORD: medassist
+      POSTGRES_DB: medassist
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medassist -d medassist"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+  qdrant:
+    image: qdrant/qdrant:v1.12.4
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - qdrant_data:/qdrant/storage
+    healthcheck:
+      test: ["CMD-SHELL", "bash -c ':> /dev/tcp/127.0.0.1/6333' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+
+volumes:
+  api_data:
+  postgres_data:
+  qdrant_data:

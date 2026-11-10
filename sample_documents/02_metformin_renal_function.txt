@@ -1,0 +1,98 @@
+SYNTHETIC SAMPLE DOCUMENT - NOT A REAL CLINICAL GUIDELINE
+This document was written for software testing of MedAssist AI. It is not a
+regulatory label and must not be used for prescribing decisions. Always consult
+the current approved product information and local protocols.
+
+TITLE: Metformin in Patients with Impaired Renal Function
+SOURCE LABEL: MedAssist Synthetic Library
+VERSION: 1.0
+PUBLICATION DATE: 2026-02-03
+CATEGORY: pharmacology
+
+1. PHARMACOKINETIC BASIS
+
+Metformin is eliminated unchanged by the kidneys through tubular secretion and
+glomerular filtration. There is no hepatic metabolism of clinical relevance.
+When renal function declines, metformin accumulates. Accumulation is
+associated with lactic acidosis, a rare but life-threatening adverse effect.
+
+Because clearance depends on renal function, eGFR is the central laboratory
+value in any risk assessment. Serum creatinine alone is insufficient in older
+adults with low muscle mass.
+
+2. CONTRAINDICATIONS
+
+Metformin is contraindicated in the following situations:
+- eGFR below 30 mL/min/1.73 m2.
+- Acute or chronic metabolic acidosis, including diabetic ketoacidosis.
+- Severe hypoxia or severe respiratory insufficiency.
+- Acute illness with dehydration, shock, or sepsis.
+- Severe hepatic impairment.
+- Known hypersensitivity to metformin.
+
+3. WARNINGS AND PRECAUTIONS AT REDUCED eGFR
+
+- eGFR 30 to 44 mL/min/1.73 m2: initiation is not recommended. Continue only
+  if already established, at a reduced dose, with close monitoring of renal
+  function, typically every three months.
+- eGFR 45 to 59 mL/min/1.73 m2: reassess the dose. Monitor renal function at
+  least annually, and more often if other risks are present.
+- A rapid fall in eGFR, for example a decrease of more than 30 percent, should
+  prompt review regardless of the absolute value.
+
+4. TEMPORARY INTERRUPTION
+
+Metformin should be withheld temporarily during:
+- Acute illness with vomiting, diarrhoea, or poor oral intake.
+- Dehydration or hypoperfusion.
+- Sepsis, hypoxia, or shock.
+- Iodinated contrast administration, in accordance with the local contrast
+  protocol, typically withholding at the time of the study and restarting
+  after renal function is confirmed stable.
+
+5. LACTIC ACIDOSIS WARNING SIGNS
+
+Symptoms are non-specific and easily attributed to other causes:
+- Malaise, myalgia, and general weakness.
+- Abdominal pain, nausea, vomiting, and diarrhoea.
+- Hyperventilation or respiratory distress.
+- Hypothermia and hypotension.
+- Altered mental status or drowsiness.
+
+Lactic acidosis is a medical emergency requiring immediate discontinuation of
+metformin, urgent biochemistry, and in-hospital management.
+
+6. DRUGS AND CONDITIONS THAT INCREASE RISK
+
+- Concurrent nephrotoxic agents such as NSAIDs, aminoglycosides, and
+  amphotericin B.
+- Diuretics causing volume depletion.
+- ACE inhibitors and ARBs during acute illness, when they may worsen renal
+  perfusion.
+- Radiocontrast media.
+- Alcohol misuse, which impairs lactate clearance.
+- Surgery and general anaesthesia.
+
+7. MONITORING RECOMMENDATIONS
+
+- Check eGFR before starting metformin and at least annually thereafter.
+- Check more frequently, typically every three to six months, when eGFR is
+  between 30 and 59.
+- Recheck after any acute illness requiring hospital care.
+- Document the review decision in the clinical record.
+
+8. INFORMATION TYPICALLY MISSING IN A SHORT CLINICAL VIGNETTE
+
+- The actual eGFR value and its trend.
+- Whether the patient is currently acutely unwell.
+- Concurrent nephrotoxic medication.
+- Recent contrast exposure.
+- Liver function and alcohol history.
+- Whether the patient is on insulin and how glucose is being monitored.
+
+9. SAFETY LIMITATION
+
+This text summarises general principles for software evaluation. Dosing is
+deliberately not specified. Any real decision requires the current approved
+product information, the patient's full medication list, and review by a
+qualified clinician.
